@@ -37,7 +37,7 @@
 
     function openInNewTab(URL) {
         const win = window.open();
-        win.document.write(`<iframe src="${URL}" frameborder="0" style="width:100vw;height:100vh;border:none;"></iframe>`);
+        win.document.write(`<embed src="${URL}" frameborder="0" style="width:100vw;height:100vh;border:none;">`);
         win.document.title = "About:Blank Game";
     }
 
